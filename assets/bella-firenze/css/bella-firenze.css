@@ -43,7 +43,7 @@ Contents
 1.Global Styles 
 *********/
 html, body {width:100%; height:100%;}
-body {font-family: 'Raleway', sans-serif;color:#2d3035; background:#FFF;}
+body {font-family: 'Open Sans', sans-serif;color:#2d3035; background:#FFF;}
 .lead-sm {font-size:18px}
 .bg-white {background:rgba(255,255,255,1)}
 .bg-darkblue {background:rgba(45,48,53,0.7)}
@@ -61,26 +61,26 @@ hr.separator {border:0; height:1px; background:#bda881;}
 /*********  
 2.Main Navigation
 *********/
-#mainnavigation{background:#2d3035}
+#mainnavigation{background:#c0392b}
 .navbar{min-height:80px;margin-bottom:20px;border:0 solid transparent}
 .nav > li > a:hover, .nav > li > a:focus {text-decoration: none;background-color: rgb(32, 36, 41);}
 @media (min-width: 768px) {
 .navbar-nav > li > a{color:#FFF;text-transform:uppercase;font-weight:500;padding:40px 10px;font-size:12px}
-.nav > li > a:hover,.nav > li > a:focus{text-decoration:none;color:#bda881;background-color:transparent}
+.nav > li > a:hover,.nav > li > a:focus{text-decoration:none;color:#f1c40f;background-color:transparent}
 .navbar-toggle{position:relative;float:right;margin-right:15px;padding:20px 10px;margin-top:8px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:4px}
 .navbar #bellafirenze-lg{display:block;background:url(../images/logo/bella-firenze-logo-light.svg) no-repeat center center;width:100%;height:90px}
 .navbar #bellafirenze-sm{display:block;background:url(../images/logo/bella-firenze-logo.svg) no-repeat top left;width:200px;height:100px}
 }
-.navbar-brand{float:left;margin-left:auto;margin-right:auto;display:block;background:url(../images/logo/bella-firenze-logo-sm.svg) no-repeat top left;width:200px;height:70px;font-family:'Engagement',cursive;color:#bda881}
+.navbar-brand{float:left;margin-left:auto;margin-right:auto;display:block;background:url(../images/logo/bella-firenze-logo-sm.svg) no-repeat top left;width:200px;height:70px;font-family:'Anton',cursive;color:#f1c40f}
 @media only screen and (max-width: 768px) {
 .navbar #bellafirenze-lg{display:block;background:url(../images/logo/bella-firenze-logo.svg) no-repeat top left;width:220px;background-size:cover;height:90px}
 .navbar{min-height:60px}
 .navbar-toggle{margin-right:15px;padding:20px 10px}
 }
-.navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px;background:#bda881}
+.navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px;background:#f1c40f}
 @media only screen and (max-width: 767px) {
 .navbar #bellafirenze-lg{display:block;background:url(../images/logo/bella-firenze-logo.svg) no-repeat top left;height:60px;width:220px;height:90px}
-.navbar-nav > li > a{color:#bda881;text-align:center;text-transform:uppercase}
+.navbar-nav > li > a{color:#FFF;text-align:center;text-transform:uppercase}
 .navbar-nav{margin:0 -15px}
 .navbar-collapse{border-top:0 solid transparent}
 }
@@ -147,7 +147,7 @@ img.logo-badge {width:75%}
 6.Common styles for sections
 *********/
 section {padding:150px 0;}
-section h2 {font-family: 'Engagement', cursive; font-size:72px}
+section h2 {font-family: 'Anton', cursive; font-size:72px}
 
 
 /*********  
@@ -168,7 +168,7 @@ section#chefs .chef {margin-bottom:30px;}
 8.1.Chefs2
 *********/
 section#chefs2 {background:#f9f7f3 url(../images/backgrounds/bf-events-bg.jpg);background-attachment:fixed;}
-section#chefs2 h3 {font-weight:400;font-family: 'Engagement', cursive; font-size:42px}
+section#chefs2 h3 {font-weight:400;font-family: 'Anton', cursive; font-size:42px}
 section#chefs2 h4 {text-transform:uppercase; font-weight:400}
 section#chefs2 .chefitem {border:1px solid #bda881}
 
@@ -283,7 +283,7 @@ section#contact a:hover {color:#2d3035;text-decoration:none}
 19.Footer
 *********/
 footer {background:#FFF;padding: 15px 0; text-align:center}
-footer h2 {font-family: 'Engagement', cursive; font-size:50px}
+footer h2 {font-family: 'Anton', cursive; font-size:50px}
 footer ul.social-buttons {margin-bottom: 0;}
 footer ul.social-buttons li a {display: block;width: 40px;height: 40px;border-radius: 0%;font-size: 20px;line-height: 40px;outline: 0;color: #2d3035;border: 2px solid #2d3035;margin-bottom:10px;	background-color: transparent;-webkit-transition: all .3s;-moz-transition: all .3s;transition: all .3s;}
 footer ul.social-buttons li a:hover, footer ul.social-buttons li a:focus, footer ul.social-buttons li a:active {background-color: transparent;border: 2px solid #bda881;color: #bda881;}
